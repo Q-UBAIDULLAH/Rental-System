@@ -236,7 +236,10 @@ const Cards=()=>{
         </div>
 
 
-
+        <div className="flex justify-between m-2">
+            <h3>Popular Car</h3>
+            <a href="">View All</a>
+        </div>
         </>
     )
 }
