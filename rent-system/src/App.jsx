@@ -12,9 +12,9 @@ function App() {
 
 return (
     <>
-  <Navbar></Navbar>
+  {/* <Navbar></Navbar>
   <Adds></Adds>
-  <Pick_Drop></Pick_Drop>
+  <Pick_Drop></Pick_Drop> */}
   <Cards></Cards>
 
 
