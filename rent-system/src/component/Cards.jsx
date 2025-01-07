@@ -720,7 +720,9 @@ const Cards=()=>{
 
 </div>
 
-
+<div className="w-[156px] h-[44px] ml-[590px]">
+  <button  className=" w-[136px] h-[43px] text-[16px] text-[#FFFFFF] font-[500] bg-[#3563E9] rounded-[4px]">Show more car</button>
+</div>
         
         </>
     )

@@ -3,6 +3,7 @@ import Navbar from './component/Navbar'
 import Adds from './component/Adds'
 import Pick_Drop from './component/Pick_Drop'
 import Cards from './component/Cards'
+import Footer from './component/Footer'
 
 function App() {
 
@@ -15,7 +16,8 @@ return (
   {/* <Navbar></Navbar>
   <Adds></Adds>
   <Pick_Drop></Pick_Drop> */}
-  <Cards></Cards>
+  {/* <Cards></Cards> */}
+  <Footer></Footer>
 
 
     </>
