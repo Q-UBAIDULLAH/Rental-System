@@ -5,6 +5,7 @@ import Pick_Drop from './component/Pick_Drop'
 import Cards from './component/Cards'
 import Footer from './component/Footer'
 import Slidebar from './component/Slidebar'
+import DetailCar from './component/DetailCar'
 function App() {
 
 
@@ -16,10 +17,10 @@ return (
   {/* <Navbar></Navbar>
   <Adds></Adds>
   <Pick_Drop></Pick_Drop> */}
-  {/* <Cards></Cards> */}
+  <Cards></Cards>
   {/* <Footer></Footer> */}
-<Slidebar></Slidebar>
-
+{/* <Slidebar></Slidebar> */}
+<DetailCar></DetailCar>
 
     </>
   )
