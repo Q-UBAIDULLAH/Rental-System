@@ -14,10 +14,11 @@ function App() {
 
 return (
     <>
+    
   {/* <Navbar></Navbar>
   <Adds></Adds>
   <Pick_Drop></Pick_Drop> */}
-  <Cards></Cards>
+  {/* <Cards></Cards> */}
   {/* <Footer></Footer> */}
 {/* <Slidebar></Slidebar> */}
 <DetailCar></DetailCar>
