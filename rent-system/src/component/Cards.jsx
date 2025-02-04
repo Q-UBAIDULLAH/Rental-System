@@ -7,19 +7,20 @@ const Cards=()=>{
     return(
         <>
         
-        <div className="flex justify-between m-2">
-            <h3>Popular Car</h3>
-            <a href="">View All</a>
+        <div className="flex justify-between ml-16 mr-[74px] mt-[-100px] ">
+            <h3 className="text-[#90A3BF] ml-4 font-[500]">Popular Car</h3>
+            <a className="text-[#3563E9] font-[500] mr-4 " href="">View All</a>
         </div>
 
 
         {/* bg-slate-500 */}
 
 
-        <div className="w-[1312px] h-[388px] flex gap-[32px] bg-slate-500">
+        <div className="w-[1220px]  h-[388px] ml-14  flex gap-[14px] mt-6  
+        ">
 
 {/* bg-zinc-400 */}
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px]  bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -72,7 +73,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -124,7 +125,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -175,7 +176,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -229,7 +230,7 @@ const Cards=()=>{
 
 
 <div className="m-5">
-<h3 className="align">Recomendation Car</h3>
+<h3 className="align text-[#90A3BF] ml-12 font-[500]">Recomendation Car</h3>
 </div>
 
 
@@ -260,10 +261,10 @@ const Cards=()=>{
 
 
 
-<div className="w-[1312px] h-[388px] flex gap-[32px] bg-slate-500">
+<div className="w-[1220px] h-[388px] ml-14  flex gap-[14px] ">
 
 {/* bg-zinc-400 */}
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -319,7 +320,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -339,7 +340,7 @@ const Cards=()=>{
 
 {/* bg-black */}
 <div className="w-[232px] h-[90px] ml-[36px] mt-[51px]  ">
-<img className="h-full w-full object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__" alt="" />
+<img className=" object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__" alt="" />
 </div>
 
 
@@ -379,7 +380,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -430,7 +431,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -450,7 +451,7 @@ const Cards=()=>{
 
 {/* bg-black */}
 <div className="w-[232px] h-[90px] ml-[36px] mt-[51px]  ">
-<img className="h-full w-full object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__" alt="" />
+<img className="object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/92f7/4dec/074acdd579ecaf8742bac9eede524b1f?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=SzB2eiiLfzCVXqbeJf4hn-I076JwH2nVfh2rfPetPvzhqkIxgqgxaTZ7WeELmqt33LxToYwyj4QrMNq57j0PobrOm-CVj~yNe4Mj9B7XZB1iwSpSRKQTAx2PfRf3ZBQx628Pk-kQQ4YoqyojzIdmUQloXGgDEyyD8g04o9AzW~enZHJis9rQQ7M5xyqor6L7e1U9lufQpDhe~oQpXuadTTm0OPfafOblWu2ee4B0IiMF3e9H35J0HSyJfN3iZ1F0xqOae5o~MBSAIafnQR9OjLJ22Edn~bZXPkLI-BdCgrga-ZpKe36~q3KDmo1TLcOx5gujAile-8xEI1VhwnSeVQ__" alt="" />
 </div>
 
 
@@ -499,10 +500,10 @@ const Cards=()=>{
 
 
 
-<div className="w-[1312px] h-[388px] flex gap-[32px] bg-slate-500 mt-10">
+<div className="w-[1220px] h-[388px] ml-14  flex gap-[14px]  mt-8">
 
 {/* bg-zinc-400 */}
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -556,7 +557,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -576,7 +577,7 @@ const Cards=()=>{
 
 {/* bg-black */}
 <div className="w-[232px] h-[90px] ml-[36px] mt-[51px]  ">
-<img className="h-full w-full object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/2ed7/5540/73defa787d71b948931bdf156be51493?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KNeL166qzjWUxH-Q2IfSnTVlYjf1f~VYTLhrOIwzUfxVwgiLlN2gsjofulMB-~sYc~hp4seJviR~QjS2SPUH7MnZRy09E9v8gn-R1BGAkSdjzcQH90mssUw6Dc7xA9KHet2ljLS6ozGZYdAX2zLnvtXy1duuZA1EOPVEc5REeWT-swtanfyhBhviQ-sdta~R0sjqCBb2LCUmfOGrUMaK~9E1G7fwvCDxCWwCxa41OurLbPSdma0vImFK9p7xXqjHhqpE35hOJZAhcHkwsMza59ZjoxKBsUHaszC3HkZLmOX8VGlPbQsARRAufdR3n3R2lJ6ptdc0qElaos126qwJlw__" alt="" />
+<img className=" object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/2ed7/5540/73defa787d71b948931bdf156be51493?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KNeL166qzjWUxH-Q2IfSnTVlYjf1f~VYTLhrOIwzUfxVwgiLlN2gsjofulMB-~sYc~hp4seJviR~QjS2SPUH7MnZRy09E9v8gn-R1BGAkSdjzcQH90mssUw6Dc7xA9KHet2ljLS6ozGZYdAX2zLnvtXy1duuZA1EOPVEc5REeWT-swtanfyhBhviQ-sdta~R0sjqCBb2LCUmfOGrUMaK~9E1G7fwvCDxCWwCxa41OurLbPSdma0vImFK9p7xXqjHhqpE35hOJZAhcHkwsMza59ZjoxKBsUHaszC3HkZLmOX8VGlPbQsARRAufdR3n3R2lJ6ptdc0qElaos126qwJlw__" alt="" />
 </div>
 
 
@@ -609,7 +610,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -628,7 +629,7 @@ const Cards=()=>{
 
 {/* bg-black */}
 <div className="w-[232px] h-[90px] ml-[36px] mt-[51px]  ">
-<img className="h-full w-full object-cover mirror-x or scale-x-[1]" src="https://s3-alpha-sig.figma.com/img/f699/abef/3f5cf908bc1ebc5bf5c91aca676e4157?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pJpXAVy9s9tgcJZELXegAIaVRTUCuvldtsCVdHHrUtnPLc6hPATtpqS0jKxh0WJ4ophhbXRXLmm8ngmLoAKNKDHvx5K5Lt6ifQ6nk-MK8QNS9y8QCzMPTjej3CTAQ0Dx6V6vdnh3VsaoA9BNmI-g~Z0dHsgaKfCVaOFcOszZ2qzqQmtfoWSdwx~DB5XBa016N0-HHMtc5rL-hyhGknEEQM1S3NuOXZTRqjPdCb7jnG-XlC9Kx79VriiDadrqkXzf8EnkuZta24osSFTyBBKp5g6iXycUUosSVpuamhz2SfA9G9oFNKTsj-qvOHjlVtIKRPsC31cg~FrC7RZPcd6fFQ__" alt="" />
+<img className=" object-cover mirror-x or scale-x-[1]" src="https://s3-alpha-sig.figma.com/img/f699/abef/3f5cf908bc1ebc5bf5c91aca676e4157?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pJpXAVy9s9tgcJZELXegAIaVRTUCuvldtsCVdHHrUtnPLc6hPATtpqS0jKxh0WJ4ophhbXRXLmm8ngmLoAKNKDHvx5K5Lt6ifQ6nk-MK8QNS9y8QCzMPTjej3CTAQ0Dx6V6vdnh3VsaoA9BNmI-g~Z0dHsgaKfCVaOFcOszZ2qzqQmtfoWSdwx~DB5XBa016N0-HHMtc5rL-hyhGknEEQM1S3NuOXZTRqjPdCb7jnG-XlC9Kx79VriiDadrqkXzf8EnkuZta24osSFTyBBKp5g6iXycUUosSVpuamhz2SfA9G9oFNKTsj-qvOHjlVtIKRPsC31cg~FrC7RZPcd6fFQ__" alt="" />
 </div>
 
 
@@ -660,7 +661,7 @@ const Cards=()=>{
 
 
 
-<div className="w-[304px] h-[388px]  rounded-[10px] bg-[#FFFFFF]">
+<div className="w-[296px] h-[380px]  rounded-[10px] bg-[#FFFFFF]">
 
 
 <div className="flex justify-between ">
@@ -680,7 +681,7 @@ const Cards=()=>{
 
 {/* bg-black */}
 <div className="w-[232px] h-[90px] ml-[36px] mt-[51px]  ">
-<img className="h-full w-full object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/2ed7/5540/73defa787d71b948931bdf156be51493?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KNeL166qzjWUxH-Q2IfSnTVlYjf1f~VYTLhrOIwzUfxVwgiLlN2gsjofulMB-~sYc~hp4seJviR~QjS2SPUH7MnZRy09E9v8gn-R1BGAkSdjzcQH90mssUw6Dc7xA9KHet2ljLS6ozGZYdAX2zLnvtXy1duuZA1EOPVEc5REeWT-swtanfyhBhviQ-sdta~R0sjqCBb2LCUmfOGrUMaK~9E1G7fwvCDxCWwCxa41OurLbPSdma0vImFK9p7xXqjHhqpE35hOJZAhcHkwsMza59ZjoxKBsUHaszC3HkZLmOX8VGlPbQsARRAufdR3n3R2lJ6ptdc0qElaos126qwJlw__" alt="" />
+<img className=" object-cover mirror-x or scale-x-[-1]" src="https://s3-alpha-sig.figma.com/img/2ed7/5540/73defa787d71b948931bdf156be51493?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KNeL166qzjWUxH-Q2IfSnTVlYjf1f~VYTLhrOIwzUfxVwgiLlN2gsjofulMB-~sYc~hp4seJviR~QjS2SPUH7MnZRy09E9v8gn-R1BGAkSdjzcQH90mssUw6Dc7xA9KHet2ljLS6ozGZYdAX2zLnvtXy1duuZA1EOPVEc5REeWT-swtanfyhBhviQ-sdta~R0sjqCBb2LCUmfOGrUMaK~9E1G7fwvCDxCWwCxa41OurLbPSdma0vImFK9p7xXqjHhqpE35hOJZAhcHkwsMza59ZjoxKBsUHaszC3HkZLmOX8VGlPbQsARRAufdR3n3R2lJ6ptdc0qElaos126qwJlw__" alt="" />
 </div>
 
 
@@ -720,7 +721,7 @@ const Cards=()=>{
 
 </div>
 
-<div className="w-[156px] h-[44px] ml-[590px]">
+<div className="w-[156px] h-[44px] ml-[590px] mt-7">
   <button  className=" w-[136px] h-[43px] text-[16px] text-[#FFFFFF] font-[500] bg-[#3563E9] rounded-[4px]">Show more car</button>
 </div>
         
