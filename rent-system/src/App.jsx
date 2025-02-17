@@ -16,17 +16,30 @@ function App() {
 return (
     <>
     <div className='w-full h-full bg-[#F6F7F9]'>
-
+   {/* <Navbar></Navbar>
+<Slidebar></Slidebar>
+    <DetailCar></DetailCar>
+    <Footer></Footer> */}
+  
   {/* <DashboardDetail></DashboardDetail> */}
  
       </div>
-  {/* <Navbar></Navbar>
-  <Adds></Adds>
+      {/* bg-[#91a5cd] w-full  */}
+      <div className=' '>
+   
+      <DetailCar></DetailCar>
+
+      {/* <Cards></Cards> */}
+  
+      </div>
+ 
+ {/* <Pick_Drop></Pick_Drop> */}
+      {/* <Navbar></Navbar> */}
+  {/* <Adds></Adds>
   <Pick_Drop></Pick_Drop>
   <Cards></Cards>
   <Footer></Footer> */}
-{/* <Slidebar></Slidebar> */}
-<DetailCar></DetailCar>
+
 
     </>
   )
