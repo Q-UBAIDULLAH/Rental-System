@@ -63,7 +63,7 @@ const Navbar = () => {
   return (
    
     
-    <div className=" md:flex sm:flex items-center justify-between bg-yellow-400 px-4 sm:px-8 py-3">
+    <div className=" md:flex sm:flex items-center justify-between bg-yellow-100  sm:px-8 py-3">
 
 <div className="flex justify-between w-full">
     <div className="flex items-center"><RxHamburgerMenu className="text-4xl "/></div>
@@ -80,12 +80,12 @@ const Navbar = () => {
       </div>
      
       
-       <div className="relative flex-1 flex justify-between items-center   w-full  mt-4 sm:flex">
+       <div className="relative flex-1  flex justify-between items-center   w-full  mt-4 sm:flex">
     
 
       
         <input
-          className="w-72 h-10 sm:h-12 pl-10 pr-12 rounded-lg border border-gray-300 focus:outline-none"
+          className="w-72  h-10 sm:h-12 pl-10 pr-12 rounded-lg border  border-gray-300 focus:outline-none"
           placeholder="Search something here"
           type="text"
         />
@@ -93,7 +93,7 @@ const Navbar = () => {
         {/* <CiSliderHorizontal className="absolute right-3 top-1/2 transform -translate-y-1/2  
          cursor-pointer" /> */}
          
-         <div className="border rounded-lg">
+         <div className="border ml-2 rounded-lg">
          <CiSliderHorizontal className="text-slate-400 text-4xl "/>
          </div>
          

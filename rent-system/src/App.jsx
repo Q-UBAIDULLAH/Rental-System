@@ -10,11 +10,12 @@ import DashboardDetail from './component/Dashboard_Detail'
 function App() {
 
 
-
+const data=fetch()
 
 
 return (
     <>
+    <h1>helll</h1>
     <div className='w-full h-full bg-[#F6F7F9]'>
    {/* <Navbar></Navbar>
 <Slidebar></Slidebar>
@@ -27,9 +28,9 @@ return (
       {/* bg-[#91a5cd] w-full  */}
       <div className=' '>
    
-      <DetailCar></DetailCar>
-
-      {/* <Cards></Cards> */}
+    
+      <Cards></Cards>
+   
   
       </div>
  

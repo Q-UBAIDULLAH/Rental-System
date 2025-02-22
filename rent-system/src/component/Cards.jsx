@@ -16,7 +16,7 @@ const Cards=()=>{
         {/* bg-slate-500 */}
 
 
-        <div className="flex  flex-col gap-4 bg-black md:gap-[14px] sm:gap-2 mt-8">
+        <div className="flex   gap-4 bg-black md:gap-[14px] sm:gap-2 mt-8 overflow-x-scroll no-scrollbar w-full">
 
 {/* bg-zinc-400 */}
 <div className="w-72 h-80 md:h-[380px] sm:w-70 sm:h-96  rounded-[10px]  bg-violet-600">
@@ -83,7 +83,7 @@ const Cards=()=>{
 
 
 <div className="w-[128px] h-[48px] mt-5 ml-5">
-<h3 className="text-[20px] font-[700]">Koenigsegg</h3>
+<h3 className="text-[20px] font-[700]">Nissan GT-R</h3>
 <h6 className="text-[#90A3BF]">sport</h6>
 </div>
 
@@ -140,8 +140,8 @@ const Cards=()=>{
 
 
 <div className="w-[128px] h-[48px] mt-5 ml-5">
-<h3 className="text-[20px] font-[700]">Koenigsegg</h3>
-<h6 className="text-[#90A3BF]">sport</h6>
+<h3 className="text-[20px] font-[700]">Rolls - Royce</h3>
+<h6 className="text-[#90A3BF]">Sedan</h6>
 </div>
 
 <div className="w-[24px] h-[24px] mt-6 mr-4">
@@ -185,7 +185,7 @@ const Cards=()=>{
   {/* Header Section */}
   <div className="flex justify-between">
     <div className="w-[128px] h-[48px] mt-5 ml-5">
-      <h3 className="text-[20px] font-[700]">Koenigsegg</h3>
+      <h3 className="text-[20px] font-[700]">Nissan GT-R</h3>
       <h6 className="text-[#90A3BF]">Sport</h6>
     </div>
     <div className="w-[24px] h-[24px] mt-6 mr-4">
